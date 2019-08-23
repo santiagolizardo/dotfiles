@@ -29,6 +29,12 @@ lol = log --graph --decorate --pretty=oneline --abbrev-commit
 lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
 ls = ls-files
 
-[user]
-name = Santiago Lizardo
+[include]
+path = ~/.gitconfig_local
+
+# Create a file ~/.gitconfig_local with the following content:
+#
+# [user]
+# name = First Name 
+# email = first.name@localhost
 
