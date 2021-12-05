@@ -32,6 +32,9 @@ ls = ls-files
 [include]
 path = ~/.gitconfig_local
 
+[pull]
+rebase = false
+
 # Create a file ~/.gitconfig_local with the following content:
 #
 # [user]
