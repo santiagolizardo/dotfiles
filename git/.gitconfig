@@ -41,3 +41,10 @@ rebase = false
 # name = First Name 
 # email = first.name@localhost
 
+[user]
+	name = Santiago Lizardo
+	email = santiagolizardo@users.noreply.github.com
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
