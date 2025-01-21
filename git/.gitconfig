@@ -41,8 +41,8 @@ name = Santiago Lizardo
 # email = first.name@localhost
 
 [includeIf "gitdir:~/src/work"]
-path = ~/.gitconfig-work.conf
+path = ~/.gitconfig-work
 
 [includeIf "gitdir:~/src/play"]
-path = ~/.gitconfig-play.conf
+path = ~/.gitconfig-play
 
