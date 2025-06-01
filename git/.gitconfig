@@ -34,15 +34,16 @@ defaultBranch = main
 
 [user]
 name = Santiago Lizardo
+email = santiagolizardo@users.noreply.github.com
 
 # Create a file ~/.gitconfig-*.conf with the following content:
 #
 # [user]
 # email = first.name@localhost
 
-[includeIf "gitdir:~/src/work/**"]
-path = ~/.gitconfig-work
+[includeIf "gitdir:~/src/co/**"]
+path = ~/.gitconfig-co
 
-[includeIf "gitdir:~/src/play/**"]
-path = ~/.gitconfig-play
+[includeIf "gitdir:~/src/me/**"]
+path = ~/.gitconfig-me
 
